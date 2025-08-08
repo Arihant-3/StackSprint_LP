@@ -1,0 +1,30 @@
+# Core
+python-dotenv==1.0.1
+requests==2.31.0
+pandas==2.2.1
+numpy==1.26.4
+
+# Visualization
+matplotlib==3.8.2
+plotly==5.18.0
+
+# Streamlit & Dashboarding
+streamlit==1.31.0
+
+# NLP
+transformers==4.37.2
+torch==2.2.0
+sentencepiece==0.1.99
+
+# FastAPI & Backend
+fastapi==0.110.0
+uvicorn==0.27.1
+pydantic==2.6.1
+
+# Google BigQuery
+google-cloud-bigquery==3.14.1
+
+# Jupyter & Notebook Support
+jupyter
+ipykernel
+

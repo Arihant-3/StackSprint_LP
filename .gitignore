@@ -1,0 +1,38 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore environment & secret files
+.env
+*.env
+credentials.json
+me.json
+person.json
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders
+venv/
+env/
+stack_lp/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore data files that shouldn't be public, but keep assets/
+*.xlsx
+*.csv
+!assets/*.csv
+
+# Ignore model & large binary files
+*.h5
+*.pkl
+*.joblib
+
+
